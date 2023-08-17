@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AirPods - True Wireless Earbuds</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header active">
+        <nav id="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="AirPods Logo">
+
+            </div>
+            <ul class="nav-links" >
+                <li><a href="#hero">Product</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#specs">Specifications</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">Newsletter</a></li>
+            </ul>
+            <!-- ionicons menu and close icon -->
+            <div class="mobile-nav-btn">
+                <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+                <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+            </div>
+        </nav>
+       
+    </header>
+
+        <!--    hero section    -->
+    <section id="hero" class="hero">
+        <div class="col1">
+            <h2>Experience True Freedom with AirPods</h2>
+            <p>Immersive sound, seamless connectivity, and all-day comfort.</p>
+            <h5> Price: 12,999/-</h5>
+            <button class="buy-button">Shop Now</button>
+        </div>
+        <div class="col2">
+            <img src="./images/airpods.png">
+        </div>
+    </section>
+
+    <!-- feature section -->
+    <section id="features" class="features">
+        <h1>Features</h1>
+        <div class="feature" >
+            <div class="img-content">
+                <img src="./images/wireless-charging.webp">
+            </div>
+            <div class="feature-content">
+                <h3>Wireless Charging:</h3>
+                <p>AirPods come with a wireless charging case that can be charged using a Qi-compatible charging mat or
+                    Lightning connector. This convenient feature ensures that your AirPods are always ready for your
+                    next adventure.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-content" id="siri">
+                <h3> Siri Integration:</h3>
+                <p>Activate Siri with a simple "Hey Siri" command, allowing you to control your music, make calls, ask
+                    questions, and more all without reaching for your device. AirPods provide a hands-free and
+                    intuitive way to interact with your digital assistant.</p>
+            </div>
+            <div class="img-content" id="siri-img">
+                <img src="./images/siri-integeration.jpg">
+            </div>
+        </div>
+        <div class="feature">
+            <div class="img-content">
+                <img src="./images/force-sensor.jpg">
+            </div>
+            <div class="feature-content">
+                <h3> Force Sensor</h3>
+                <p>To play and pause audio, press the force sensor on the stem of an AirPod. To resume playback, press
+                    again. To skip forwards, double-press the force sensor. To skip back, triple-press the force sensor
+                </p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-content" id="icloud">
+                <h3>Seamless iCloud Integration:</h3>
+                <p>AirPods seamlessly integrate with your iCloud account, making pairing and switching between your
+                    Apple devices effortless. iCloud also keeps your AirPods in sync, so you can easily switch between
+                    devices while continuing to enjoy your audio.</p>
+            </div>
+            <div class="img-content">
+                <img src="./images/icloud_integeration.webp">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- specification section -->
+    <section id="specs" class="specs">
+        <h2>Specifications</h2>
+        <ul>
+            <li>Bluetooth Version: 5.0</li>
+            <li>Battery Life: Up to 10 hours</li>
+            <li>Charging Time: 2 hours</li>
+            <li>Water Resistance: IPX7</li>
+        </ul>
+    </section>
+
+    <!-- review section -->
+    <section id="reviews" class="reviews">
+        <h2>Reviews</h2>
+        <div class="review">
+            <img src="images/user1.jpg"  alt="User 1">
+            <p>"These AirPods are simply amazing! The sound quality is top-notch, and they're so comfortable to wear."
+            </p>
+            <h4>John Doe</h4>
+        </div>
+        <div class="review">
+            <img src="images/user2.jpg" alt="User 2">
+            <p>"I've tried other wireless earbuds, but AirPods are on a different level. Highly recommended!"</p>
+            <h4>Jane Smith</h4>
+        </div>
+    </section>
+
+    <!-- contact section  -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to our friendly support team.</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea row="10" cols="40" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+<!--   newsletter section -->
+    <section class="newsletter" id="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay up-to-date with the latest updates and exclusive offers.</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    
+    <!-- use the ionicons framework -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
